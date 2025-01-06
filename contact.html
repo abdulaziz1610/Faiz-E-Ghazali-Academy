@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="logo.png" alt="Faiz e Ghazali Academy Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="./index.html" target="_blank">Home</a></li>
+                <li><a href="./courses.html" target="_blank"> Courses</a></li>
+                <li><a href="./about.html" target="_blank"> About Us</a></li>
+                <li><a href="./contact.html" target="_blank"> Contact</a></li>
+            </ul>
+            <button class="cta-button">Free Trial Class</button>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+  <main>
+    <!-- Hero Section -->
+    <section id="hero" class="hero-contact">
+      <h1>Contact Us</h1>
+      <p>We are here to answer your questions and help you start your Islamic education journey.</p>
+    </section>
+
+    <!-- Contact Information -->
+    <section id="contact-info">
+      <div class="info">
+        <h2>Contact Details</h2>
+        <p><strong>Email:</strong> info@faizeghazaliacademy.com</p>
+        <p><strong>Phone:</strong> +92 317 3778295</p>
+        <p><strong>Location:</strong> Karachi, Pakistan</p>
+      </div>
+      <div class="social-media">
+        <h2>Follow Us</h2>
+        <ul>
+          <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+          <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+          <li><a href="https://www.twitter.com" target="_blank">Twitter</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact-form">
+      <h2>Send Us a Message</h2>
+      <form action="submit-form.php" method="post">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your Full Name" required>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" placeholder="Your Email Address" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Faiz E Ghazali Academy. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>

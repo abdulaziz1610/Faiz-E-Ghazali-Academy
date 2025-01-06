@@ -73,21 +73,6 @@ body {
     gap: 2rem;
     margin-top: 2rem;
 }
-.program-cards a {
-    text-decoration: none;
-    color: inherit;       
-    display: block;       
-    padding: 1rem;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    transition: transform 0.3s ease;
-}
-
-.program-cards a:hover {
-    transform: scale(1.05); 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
 .card {
     background: white;
     padding: 2rem;
@@ -163,6 +148,13 @@ footer {
 .footer-links a:hover {
     color: #66b9da;
 }
+.copy {
+    background-color: #333;
+    color: white;
+    padding: 20px 0px ;
+    text-align: center;
+    /* margin-top: 2rem; */
+}
 
 
 /* Responsive Design */
@@ -174,4 +166,75 @@ footer {
     .hero-content h1 {
         font-size: 2rem;
     }
+}
+
+
+/* Courses Page Design */
+.hero-courses {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('/images/courses\ background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+#courses {
+    padding: 4rem 5%;
+    background-color: #f9f9f9;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+.course {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+.course:hover {
+    transform: translateY(-5px);
+}
+#cta {
+    background-color: #333;
+    color: white;
+    padding: 3rem 5%;
+    text-align: center;
+}
+#cta h2 {
+    margin-bottom: 1rem;
+}
+#cta p {
+    margin-bottom: 2rem;
+}
+#cta a {
+    font-family: Poppins , sans-serif;
+    font-weight: 500;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: #333;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+#cta a:hover {
+    background-color: #dcd6d6;
+    color: #333;
+}
+
+
+/* contact page Design */
+#hero {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('/images/background\ image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+#hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
 }
